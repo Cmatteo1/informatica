@@ -16,3 +16,10 @@ for el in processati:
  outdata.write('%g %12.5e\n' % (x[i],el))
  i+=1
 outdata.close()
+
+
+def f(y):
+ if y >= 0.0:
+ return y**5*math.exp(-y)
+ else:
+return 0.0
