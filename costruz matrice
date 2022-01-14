@@ -5,3 +5,11 @@ with open('input.txt', 'r') as f:
  if len(line) > 0:
  l.append(map(int, line.split(',')))
 print(l)
+
+# LEttura
+
+fin = open('input.txt','r')
+a=[]
+for line in fin.readlines():
+ a.append( [ int (x) for x in line.split(',') ] )
+
