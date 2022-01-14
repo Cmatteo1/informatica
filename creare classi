@@ -1,0 +1,6 @@
+class MyClass:
+ def __init__(self, name, age):
+   self.attribute1 = value1
+   self.attribute2 = value2
+ def myfunc(self):
+   print("Hello my attrib1 is " + self.attribute1)
