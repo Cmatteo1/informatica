@@ -1,0 +1,27 @@
+x = np.array([1, 2, 3, 1])
+y = np.array([[1, 2, 3], [5, 6, 1]])
+x.mean()
+np.median(x)
+np.median(y, axis=-1) # last axis
+
+x.std() 
+
+#---------------------------
+a = np.tile(np.arange(0, 40, 10), (3, 1)).T
+a
+
+b = np.array([0, 1, 2])
+a + b
+
+#-----------------------
+
+x, y = np.arange(5), np.arange(5)[:, np.newaxis]
+distance = np.sqrt(x ** 2 + y ** 2)
+distance
+
+#---------------------------
+a = np.array([4, 3, 1, 2])
+j_max = np.argmax(a)
+j_min = np.argmin(a)
+j_max, j_min
+#----------------------------
